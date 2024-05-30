@@ -112,9 +112,15 @@ img {
   border-radius: 12px;
   color: #fff;
   background-color: var(--primary-dark-cyan);
+  transition: opacity 0.1s ease-in-out;
   font-size: 1rem;
   font-weight: bold;
   gap: 0.6em;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 43em) {
