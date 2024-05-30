@@ -136,7 +136,7 @@ img {
   .product-img {
     width: auto;
     height: 100%;
-    border-radius: 15px 0 0 15px;
+    border-radius: 12px 0 0 12px;
     object-fit: cover;
   }
   .product-details {
